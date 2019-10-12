@@ -1,0 +1,18 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/invitationmanage?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
